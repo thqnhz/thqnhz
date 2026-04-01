@@ -5,5 +5,5 @@
 ---
 
 - Current project:
-  - C: [cal.c - scientific calculator](https://github.com/thqnhz/calc.c)
-  - Python: [FurinaBot](https://github.com/thqnhz/furinabot)
+  - C: [cal.c - scientific calculator](https://github.com/thqnhz/cal.c)
+  - Python: [FurinaBot - Minigame discord bot](https://github.com/thqnhz/furinabot)
