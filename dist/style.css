@@ -1,0 +1,25 @@
+:root {
+    --base: #1e1e2e;
+    --mantle: #181825;
+    --crust: #11111b;
+    --blue: #89b4fa;
+    --text: #cdd6f4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", san-serif;
+    background: var(--base);
+    color: var(--text);
+}
+
+#root {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 20vh;
+    font-size: 30px;
+}
+

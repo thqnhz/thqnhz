@@ -1,0 +1,10 @@
+{
+    "tasks": {
+        "build": "deno bundle src/main.ts -o dist/bundle.js",
+        "dev": "deno run --allow-read --allow-net --allow-run src/dev.ts"
+    },
+    "compilerOptions": {
+        "lib": ["deno.ns", "dom"]
+    }
+}
+
