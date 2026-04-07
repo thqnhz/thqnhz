@@ -4,13 +4,13 @@
  */
 
 const bundler = new Deno.Command("deno", {
-    args: ["bundle", "--watch", "src/main.ts", "-o", "dist/bundle.js"],
+    args: ["bundle", "--watch", "src/main.ts", "-o", "docs/bundle.js"],
     stdout: "piped",
     stderr: "piped",
 });
 
 const server = new Deno.Command("deno", {
-    args: ["run", "--allow-read", "--allow-net", "jsr:@std/http@1/file-server", "dist/"],
+    args: ["run", "--allow-read", "--allow-net", "jsr:@std/http@1/file-server", "docs/"],
     stdout: "piped",
     stderr: "piped",
 });
