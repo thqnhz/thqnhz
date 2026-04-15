@@ -12,14 +12,33 @@ body {
     font-family: "Inter", san-serif;
     background: var(--base);
     color: var(--text);
+    height: 100vh;
 }
 
-#root {
-    display: flex;
+.text { color: var(--text); }
+.mantle { background: var(--mantle); }
+.crust { background: var(--crust); }
+
+#main {
+    position: relative;
     align-content: center;
     justify-content: center;
-    height: 100vh;
-    font-size: 30px;
-    padding: 20%;
+    text-align: center;
+    padding: 4rem;
+    font-size: 32px;
+}
+
+#header {
+    display: block;
+    height: 4rem;
+    align-items: center;
+    align-content: center;
+    padding: 0 4rem;
+}
+
+#home-url {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 

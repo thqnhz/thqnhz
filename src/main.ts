@@ -1,3 +1,3 @@
-const root = document.getElementById("root")!;
-root.textContent = "Under reconstruction";
+const main = document.getElementById("main")!;
+main.textContent = "Under reconstruction";
 

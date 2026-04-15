@@ -1,3 +1,3 @@
 // src/main.ts
-var root = document.getElementById("root");
-root.textContent = "Under reconstruction";
+var main = document.getElementById("main");
+main.textContent = "Under reconstruction";
