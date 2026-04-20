@@ -4,6 +4,6 @@
 
 ---
 
-- Current project:
-  - C: [cal.c - scientific calculator](https://github.com/thqnhz/cal.c)
+- Current projects:
   - Python: [FurinaBot - Minigame discord bot](https://github.com/thqnhz/furinabot)
+  - Odin: [Chisa](https://github.com/thqnhz/chisa)
